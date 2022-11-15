@@ -1,5 +1,5 @@
 # CMD
-The purpose of this project is to simplify the burden of working with multiple project
+The objective of this project is to simplify the work with several projects.
 
 ## Installation
 ```
@@ -8,7 +8,7 @@ npm install -g https://github.com/oudirichi/cmd.git
 
 ## Usage
 ### Register
-First of all, you need to register folder to be allowed. You can also pass a default command to be used.
+First of all, you need to register folder to be tracked. You can also pass a default command to be used.
 
 ```
 cmd register
