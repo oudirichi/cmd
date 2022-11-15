@@ -39,6 +39,9 @@ cmd pew allow [the command: make, ls, rake, ...]
 
 already allowed: 'npm', 'yarn', 'code'
 
-cmd pew code, see the (#code) command
+
+cmd pew code, see the [code command](#code)
+
 cmd pew npm
+
 cmd pew yarn
