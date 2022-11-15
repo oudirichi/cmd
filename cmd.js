@@ -58,18 +58,6 @@ program
     });
 
   code.register(program);
-  // program
-  //   .command('code')
-  //   .argument('<project>', 'project name to open')
-  //   .action(async function (projectName) {
-  //     const project = registry.projects[projectName];
-  //     if (!project){
-  //       console.log(chalk.red(`the project ${projectName} is not registred`));
-  //       return;
-  //     }
-
-  //     return run('code', [project.path]);
-  //   });
 
   program
     .command('allow')

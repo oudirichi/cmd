@@ -25,8 +25,20 @@ The -f flag allow to make the following command the fallback when no command is 
 ### list
 Allow to dump the config file for debugging
 
+### code
+Open VS Code to the project folder.
+
+```
+cmd code [project]
+```
 ### allow
 Allow command to be passed at the project.
 ```
 cmd pew allow [the command: make, ls, rake, ...]
 ```
+
+already allowed: 'npm', 'yarn', 'code'
+
+cmd pew code, see the (#code) command
+cmd pew npm
+cmd pew yarn
